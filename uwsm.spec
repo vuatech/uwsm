@@ -9,6 +9,7 @@ Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	desktop-file-utils
 BuildRequires:	scdoc
+BuildRequires:  pkgconfig(python-dbus)
 
 Buildsystem: meson
 Buildoption: -Duuctl=enabled -Dfumon=enabled -Duwsm-app=enabled
