@@ -7,8 +7,8 @@ License:	MIT
 URL:		https://github.com/vladimir-csp/%{name}
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
-BuildRequires:	desktop-file-utils
-BuildRequires:	scdoc
+BuildRequires:	pkgconfig(desktop-file-utils)
+BuildRequires:	pkgconfig(scdoc)
 BuildRequires:  pkgconfig(python-dbus)
 
 Buildsystem: meson
